@@ -23,7 +23,7 @@
 }
 
 .header-searchIcon {
-  @apply h-[38px] w-[26px] bg-[#ff9f00] py-[10px];
+  @apply h-[38px] w-[50px] bg-[#ff9f00] py-[10px];
 }
 
 .header-nav {

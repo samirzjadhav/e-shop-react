@@ -11,7 +11,7 @@ const Header = () => {
         <MdOutlineStorefront className="header-logoImage" size={34} />
         <h2 className="header-logoTitle capitalize">e-shop</h2>
       </div>
-      <div className="header-search flex items-center gap-[10px]">
+      <div className="header-search flex items-center">
         <input type="text" className="header-searchInput border" />
         <FaSearch className="header-searchIcon" />
       </div>
@@ -24,7 +24,7 @@ const Header = () => {
           <span className="nav-itemLineOne">Your</span>
           <span className="nav-itemLineTwo">Shop</span>
         </div>
-        <div className="nav-item items-center">
+        <div className="nav-itemBasket items-center">
           <span className="nav-itemLineOne">
             <IoMdCart size={34} />
           </span>
