@@ -1,0 +1,51 @@
+.header {
+  @apply h-[60px] flex items-center bg-[#131921] sticky z-[100] top-0;
+}
+
+.header-logo {
+  @apply flex items-center text-[#ff9f00] mx-[25px] my-0;
+}
+
+.header-logoImage {
+  @apply mr-2.5;
+}
+
+.header-logoTitle {
+  @apply no-underline text-[white] border-0;
+}
+
+.header-search {
+  @apply flex flex-1 items-center mx-2.5 my-0 rounded-3xl;
+}
+
+.header-searchInput {
+  @apply h-[38px] w-full p-2.5 border-[none];
+}
+
+.header-searchIcon {
+  @apply h-[38px] w-[26px] bg-[#ff9f00] py-[10px];
+}
+
+.header-nav {
+  @apply flex justify-evenly;
+}
+
+.nav-item {
+  @apply flex text-[white] mx-2.5;
+}
+
+.nav-itemLineOne {
+  @apply text-[10px];
+}
+
+.nav-itemLineTwo {
+  @apply text-[13px] font-extrabold;
+}
+
+.nav-itemBasket {
+  @apply flex items-center text-[white] ml-2.5 mr-[50px];
+}
+
+.nav-basketCount {
+  @apply mx-2.5;
+}
