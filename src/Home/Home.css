@@ -1,0 +1,12 @@
+.home {
+  @apply flex justify-center max-w-[1500px] mx-auto;
+}
+
+.home-image {
+  @apply w-full h-[400px] z-[-1] mb-[-50px];
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home-row {
+  @apply flex z-[1] mx-[5px];
+}
