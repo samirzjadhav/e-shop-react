@@ -19,6 +19,6 @@
   @apply mt-[5px];
 }
 
-.product-info {
+.product-info { 
   @apply h-[100px] mb-[15px];
 }
