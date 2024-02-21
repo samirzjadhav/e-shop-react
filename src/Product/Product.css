@@ -11,7 +11,7 @@
 }
 
 .product > button {
-  @apply border text-[#111] mt-2.5 border-solid border-[#a88734_#9c7e31_#846a29];
+  @apply border py-[2px] px-[16px] text-[#111] mt-2.5 border-solid border-[#a88734_#9c7e31_#846a29];
   background: #ff9f00;
 }
 
@@ -19,6 +19,6 @@
   @apply mt-[5px];
 }
 
-.product-info { 
+.product-info {
   @apply h-[100px] mb-[15px];
 }

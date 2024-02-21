@@ -9,7 +9,7 @@ const CheckoutProduct = () => {
         alt=""
         className="w-[300px]"
       />
-      <div className="product-info">
+      <div className="checkoutProduct-info">
         <p className="checkoutProduct-title">
           Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag,
           Water Repellent Fabric for Men and Women (Blue)

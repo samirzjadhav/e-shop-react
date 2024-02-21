@@ -1,0 +1,16 @@
+.subtotal {
+  @apply flex flex-col justify-between w-[300px] gap-[10px] bg-[#f3f3f3] border p-5 rounded-[3px] border-solid border-[#dddddd];
+}
+
+.subtotal-gift {
+  @apply flex items-center;
+}
+
+.subtotal-gift > input {
+  @apply mr-[5px];
+}
+
+.subtotal > button {
+  @apply w-full h-[30px] border text-[#111] mt-2.5 rounded-sm border-solid border-[#a88734_#9c7e31_#846a29];
+  background: #ff9f00;
+}
