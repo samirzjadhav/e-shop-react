@@ -18,7 +18,7 @@ const Product = ({ id, title, image, price, rating }) => {
             ))}
         </div>
       </div>
-      <img src={image} />
+      <img src={image} className="flex items-center text-center" />
       <button>Add To Basket</button>
     </div>
   );
