@@ -1,6 +1,6 @@
 // here we define all the application level state and define action to make the changes to state
 
-export const intilialState = {
+export const initialState = {
   basket: [],
 };
 
@@ -15,4 +15,5 @@ const reducer = (state, action) => {
       };
   }
 };
+
 export default reducer;
