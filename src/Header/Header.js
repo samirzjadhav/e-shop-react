@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import { IoMdCart } from "react-icons/io";
 import { MdOutlineStorefront } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
-import "../Header/Header.css";
+import "../Header/Header.css"; 
+
+import { useStateValue } from "../StateProvider/StateProvider.js";
 
 const Header = () => {
+  const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="header flex justify-between items-center">
       <Link to="/home" style={{ textDecoration: "none" }}>
@@ -33,7 +36,9 @@ const Header = () => {
             <span className="nav-itemLineOne">
               <IoMdCart size={34} />
             </span>
-            <span className="nav-itemLineTwo nav-basketCount">0</span>
+            <span className="nav-itemLineTwo nav-basketCount">
+              {basket.length}
+            </span>
           </div>
         </Link>
       </div>

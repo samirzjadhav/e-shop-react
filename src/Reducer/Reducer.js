@@ -9,10 +9,14 @@ export const initialState = {
 const reducer = (state, action) => {
   switch (action.type) {
     case "ADD_TO_BASKET":
+      // Modify the state accordingly
       return {
         ...state,
         basket: [...state.basket, action.item],
       };
+    // other cases...
+    default:
+      return state;
   }
 };
 
