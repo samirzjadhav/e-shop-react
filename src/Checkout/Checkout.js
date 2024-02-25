@@ -3,8 +3,10 @@ import "./Checkout.css";
 import Subtotal from "../Subtotal/Subtotal.js";
 
 import CheckoutProduct from "../CheckoutProduct/CheckoutProduct.js";
+import { useStateValue } from "../StateProvider/StateProvider.js";
 
 const Checkout = () => {
+  const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="checkout flex gap-[40px]">
       <div className="checkout-left">
@@ -14,7 +16,14 @@ const Checkout = () => {
           className="checkout-ad"
         />
         <h2 className="checkout-title">Your Shopping Basket</h2>
-        <CheckoutProduct />
+        {basket.map((item) => (
+          <CheckoutProduct
+            id={item.id}
+            image={item.image}
+            price={item.price}
+            rating={item.rating}
+          />
+        ))}
       </div>
       <div className="checkout-right">
         <Subtotal />
