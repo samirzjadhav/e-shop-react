@@ -61,6 +61,54 @@ const Home = () => {
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
+        <div className="home-row">
+          <Product
+            id="12321341"
+            title="Hydrate in Style: Insulated Stainless Steel Water Bottle with Leak-Proof Lid - 24 oz, Keeps Drinks Cold for 24 Hours, Perfect for Gym, Office, and Outdoor Activities"
+            price={49.99}
+            rating={3}
+            image="https://katebenson.com/wp-content/uploads/2018/09/Amazon_Product_Photographer_01.jpg"
+          />
+          <Product
+            id="49538094"
+            title="Stylish Laptop Backpack for Business Travel, Water Resistant College School Computer Bag, Fits 15.6 Inch Laptop and Notebook (Black)"
+            price={89.95}
+            rating={5}
+            image="https://i.pinimg.com/736x/b4/d0/cf/b4d0cf8787fcf3fa318ae283bca2d7d1.jpg"
+          />
+        </div>
+        <div className="home-row">
+          <Product
+            id="87654321"
+            title="Puma Unisex-Adult SmashicCasual Shoe"
+            price={99.99}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/51DiZce32mL._SY695_.jpg"
+          />
+          <Product
+            id="98765432"
+            title="Campus Men's North Plus Running Shoes"
+            price={29.95}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71p+ffg6+lL._SY695_.jpg"
+          />
+          <Product
+            id="24681357"
+            title="Red Tape Sneaker Casual Shoes for Men | Soft Cushion Insole, Slip-Resistance, Dynamic Feet Support & Arch Support"
+            price={12.99}
+            rating={3}
+            image="https://images-eu.ssl-images-amazon.com/images/I/614ZnW6FAiL._AC_UL160_SR160,160_.jpg"
+          />
+        </div>
+        <div className="home-row">
+          <Product
+            id="24681347"
+            title="Hisense 139 cm (55 inches) 4K Ultra HD Smart Mini LED QLED TV 55U7K (Black)"
+            price={699.99}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/61V5fPX6kEL._AC_UY218_.jpg"
+          />
+        </div>
       </div>
     </div>
   );
