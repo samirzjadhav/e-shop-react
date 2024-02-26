@@ -4,8 +4,9 @@ import { useStateValue } from "../StateProvider/StateProvider";
 
 const CheckoutProduct = ({ id, image, title, price, rating }) => {
   const [{ basket }, dispatch] = useStateValue();
+  console.log(basket);
 
-  const removeFromBaket = () => {
+  const removeFromBasket = () => {
     dispatch({
       type: "REMOVE_FROM_BASKET",
       id: id,
@@ -15,7 +16,7 @@ const CheckoutProduct = ({ id, image, title, price, rating }) => {
     <div className="checkoutProduct flex">
       <img src={image} alt="" className="w-[300px]" />
       <div className="checkoutProduct-info">
-        <p className="checkoutProduct-title text-black">{title}</p>
+        <p className="checkoutProduct-title">{title}</p>
         <p className="checkoutProduct-price">
           <small>$</small>
           <strong>{price}</strong>
@@ -27,7 +28,7 @@ const CheckoutProduct = ({ id, image, title, price, rating }) => {
               <p>⭐️</p>
             ))}
         </div>
-        <button onClick={removeFromBaket}>Remove from Basket</button>
+        <button onClick={removeFromBasket}>Remove from Basket</button>
       </div>
     </div>
   );
