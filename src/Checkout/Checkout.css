@@ -1,5 +1,5 @@
 .checkout {
-  @apply flex bg-[white] h-max p-5;
+  @apply flex flex-col items-center md:flex-row md:items-end bg-[white] h-max p-5;
 }
 
 .checkout-ad {

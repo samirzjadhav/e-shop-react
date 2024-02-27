@@ -1,5 +1,5 @@
 .checkoutProduct {
-  @apply flex my-5;
+  @apply flex my-5 flex-col items-center md:flex-row;
 }
 
 .checkoutProduct-info {
