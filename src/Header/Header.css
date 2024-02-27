@@ -1,9 +1,39 @@
+.mobile-menu-open .header-search,
+.mobile-menu-open .header-nav {
+  @apply flex !important;
+}
+
+.mobile {
+  @apply hidden;
+}
+
+.mobile-menu-open .header {
+  @apply flex-col items-center;
+}
+
+/* Add this to your existing CSS */
+.mobile-menu-open {
+  @apply absolute top-[100%] left-0 w-full bg-white z-10 text-black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .header-search {
+    @apply m-[15px];
+  }
+  .nav-item,
+  .nav-itemBasket {
+    @apply text-black;
+  }
+
+  .header-nav {
+    @apply m-[15px];
+  }
+}
 .header {
   @apply h-[60px] flex items-center bg-[#131921] sticky z-[100] top-0;
 }
 
 .header-logo {
-  @apply flex items-center text-[#ff9f00] mx-[25px] my-0;
+  @apply flex items-center text-[#ff9f00] mx-[10px] md:mx-[25px] my-0;
 }
 
 .header-logoImage {
