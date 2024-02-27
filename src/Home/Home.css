@@ -8,5 +8,5 @@
 }
 
 .home-row {
-  @apply flex z-[1] mx-[5px];
+  @apply flex z-[1] mx-[5px] flex-col md:flex-row;
 }
