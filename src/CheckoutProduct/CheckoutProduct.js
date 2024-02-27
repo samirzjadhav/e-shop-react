@@ -13,7 +13,7 @@ const CheckoutProduct = ({ id, image, title, price, rating }) => {
     });
   };
   return (
-    <div className="checkoutProduct flex">
+    <div className="checkoutProduct flex border gap-[10px] p-[20px]">
       <img src={image} alt="" className="w-[300px]" />
       <div className="checkoutProduct-info">
         <p className="checkoutProduct-title">{title}</p>
