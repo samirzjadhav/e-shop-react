@@ -7,11 +7,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-container pb-[50px]">
-        <img
-          src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg"
-          alt=""
-          className="home-image"
-        />
+        <img src="./banner.jpg" alt="" className="home-image" />
 
         <div className="home-row">
           <Product
